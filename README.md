@@ -7,6 +7,8 @@ It needs 1 second to go from sleep to standby mode and that is set by the ```sta
 
 After waking up, you can have the options to keep Wi-Fi and Bluetooth closed or turn them open. Then it reverts the pmset settings to their original values so you can keep using the machine as usual. 
 
+First install blueutils, you can use Homebrew.
+
 Download hibernate.command and double click it after making it executable by 
 ```
 chmod u+x [Your download path]/hibernate.command
